@@ -1,0 +1,36 @@
+name: Auto Update VA Lottery Data
+
+on:
+  schedule:
+    # Run once every 4 days at 03:30 UTC (11:30 PM EST)
+    - cron: '30 3 */4 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-lotto-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Scraper
+        run: python scripts/scraper.py
+
+      - name: Run Analyzer
+        run: python scripts/analyzer.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/results.json data/raw_results.json
+          git commit -m "Auto-update VA Lottery results and predictions" || echo "No changes to commit"
+          git push origin main
