@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-09T10:48:07.405260",
+  "generated_at": "2026-10-13T10:53:09.623413",
   "analysis_window": 180,
   "analyzer_version": "5.0",
   "games": {
     "pick3": {
       "game": "Pick 3",
-      "draws_count": 23681,
+      "draws_count": 23689,
       "date_range": {
         "first": "1989-05-22",
-        "last": "2026-10-08"
+        "last": "2026-10-12"
       },
       "hottest_number": 7,
-      "coldest_number": 1,
+      "coldest_number": 0,
       "most_common_pair": [
         0,
         0
@@ -21,37 +21,37 @@
           "rank": 1,
           "numbers": [
             9,
-            0,
-            2
+            6,
+            7
           ],
           "score": 1.0,
-          "analytic_score": 0.6984,
-          "mc_survival_pct": 167.67,
-          "mc_survival_s2_pct": 239.33,
+          "analytic_score": 0.75,
+          "mc_survival_pct": 170.0,
+          "mc_survival_s2_pct": 255.0,
           "structural_fit": 1.0,
           "co_occurrence": 1.0,
-          "label": "Recent hot streak + high frequency + trending up",
+          "label": "Recent hot streak + high frequency + overdue numbers",
           "bonus_numbers": [
-            2
+            6
           ],
           "bonus_label": "Fireball"
         },
         {
           "rank": 2,
           "numbers": [
-            9,
+            4,
             5,
-            0
+            7
           ],
           "score": 1.0,
-          "analytic_score": 0.6565,
-          "mc_survival_pct": 151.67,
-          "mc_survival_s2_pct": 224.0,
+          "analytic_score": 0.6982,
+          "mc_survival_pct": 151.33,
+          "mc_survival_s2_pct": 237.67,
           "structural_fit": 1.0,
           "co_occurrence": 1.0,
           "label": "High frequency + overdue numbers",
           "bonus_numbers": [
-            6
+            2
           ],
           "bonus_label": "Fireball"
         },
@@ -59,16 +59,16 @@
           "rank": 3,
           "numbers": [
             9,
-            6,
-            7
+            5,
+            2
           ],
           "score": 1.0,
-          "analytic_score": 0.64,
-          "mc_survival_pct": 146.0,
-          "mc_survival_s2_pct": 226.67,
+          "analytic_score": 0.6981,
+          "mc_survival_pct": 163.0,
+          "mc_survival_s2_pct": 221.67,
           "structural_fit": 1.0,
           "co_occurrence": 1.0,
-          "label": "Recent hot streak + high frequency + trending up",
+          "label": "Recent hot streak + high frequency + overdue numbers",
           "bonus_numbers": [
             1
           ],
@@ -79,38 +79,38 @@
         "Position 1": {
           "0": 9,
           "1": 13,
-          "2": 22,
-          "3": 19,
+          "2": 21,
+          "3": 20,
           "4": 24,
-          "5": 18,
-          "6": 17,
+          "5": 17,
+          "6": 19,
           "7": 14,
-          "8": 17,
-          "9": 27
+          "8": 18,
+          "9": 25
         },
         "Position 2": {
-          "0": 19,
+          "0": 17,
           "1": 12,
-          "2": 15,
-          "3": 15,
-          "4": 22,
-          "5": 23,
-          "6": 23,
-          "7": 15,
+          "2": 16,
+          "3": 16,
+          "4": 21,
+          "5": 20,
+          "6": 25,
+          "7": 17,
           "8": 16,
           "9": 20
         },
         "Position 3": {
-          "0": 16,
+          "0": 15,
           "1": 23,
-          "2": 28,
-          "3": 21,
+          "2": 27,
+          "3": 20,
           "4": 10,
-          "5": 12,
+          "5": 13,
           "6": 15,
           "7": 20,
           "8": 22,
-          "9": 13
+          "9": 15
         }
       },
       "bonus": {
@@ -119,298 +119,285 @@
           0,
           9
         ],
-        "draws_count": 3970,
+        "draws_count": 3978,
         "top": [
           {
-            "number": 2,
-            "score": 0.6786
+            "number": 6,
+            "score": 0.7214
           },
           {
-            "number": 6,
-            "score": 0.6587
+            "number": 2,
+            "score": 0.6362
           },
           {
             "number": 1,
-            "score": 0.6431
+            "score": 0.6111
           }
         ],
-        "hottest": 2,
+        "hottest": 6,
         "heatmap": {
-          "0": 14,
+          "0": 12,
           "1": 24,
           "2": 24,
-          "3": 22,
-          "4": 15,
-          "5": 18,
-          "6": 18,
-          "7": 16,
-          "8": 17,
-          "9": 12
+          "3": 21,
+          "4": 16,
+          "5": 20,
+          "6": 20,
+          "7": 13,
+          "8": 16,
+          "9": 14
         }
       },
       "temporal_analysis": {
-        "target_date": "2026-10-09",
+        "target_date": "2026-10-13",
         "season": "Fall",
         "month": "October",
         "seasonal_top": [
           {
-            "number": 1,
-            "score": 0.7235
+            "number": 6,
+            "score": 0.7334
           },
           {
-            "number": 6,
-            "score": 0.7151
+            "number": 1,
+            "score": 0.7148
           },
           {
             "number": 0,
-            "score": 0.6441
-          },
-          {
-            "number": 4,
-            "score": 0.6135
+            "score": 0.6355
           },
           {
             "number": 9,
-            "score": 0.5993
+            "score": 0.5994
+          },
+          {
+            "number": 4,
+            "score": 0.5987
           },
           {
             "number": 7,
-            "score": 0.5884
+            "score": 0.592
           }
         ]
       },
       "last_5_backtest": [
         {
-          "date": "2026-10-08",
+          "date": "2026-10-12",
           "actual_numbers": [
-            5,
-            4,
-            4
-          ],
-          "predicted_top_3": [
-            {
-              "rank": 1,
-              "numbers": [
-                9,
-                0,
-                2
-              ],
-              "score": 1.0,
-              "label": "Recent hot streak + high frequency + trending up",
-              "matches": [],
-              "match_count": 0
-            },
-            {
-              "rank": 2,
-              "numbers": [
-                6,
-                5,
-                2
-              ],
-              "score": 1.0,
-              "label": "High frequency",
-              "matches": [],
-              "match_count": 0
-            },
-            {
-              "rank": 3,
-              "numbers": [
-                9,
-                5,
-                7
-              ],
-              "score": 1.0,
-              "label": "Recent hot streak + high frequency",
-              "matches": [],
-              "match_count": 0
-            }
-          ],
-          "best_match_count": 0
-        },
-        {
-          "date": "2026-10-08",
-          "actual_numbers": [
-            4,
-            4,
-            3
-          ],
-          "predicted_top_3": [
-            {
-              "rank": 1,
-              "numbers": [
-                9,
-                0,
-                2
-              ],
-              "score": 1.0,
-              "label": "Recent hot streak + high frequency + trending up",
-              "matches": [],
-              "match_count": 0
-            },
-            {
-              "rank": 2,
-              "numbers": [
-                6,
-                5,
-                2
-              ],
-              "score": 1.0,
-              "label": "High frequency",
-              "matches": [],
-              "match_count": 0
-            },
-            {
-              "rank": 3,
-              "numbers": [
-                9,
-                5,
-                7
-              ],
-              "score": 1.0,
-              "label": "Recent hot streak + high frequency",
-              "matches": [],
-              "match_count": 0
-            }
-          ],
-          "best_match_count": 0
-        },
-        {
-          "date": "2026-10-07",
-          "actual_numbers": [
-            0,
-            9,
-            1
-          ],
-          "predicted_top_3": [
-            {
-              "rank": 1,
-              "numbers": [
-                9,
-                0,
-                2
-              ],
-              "score": 1.0,
-              "label": "Recent hot streak + high frequency + trending up",
-              "matches": [],
-              "match_count": 0
-            },
-            {
-              "rank": 2,
-              "numbers": [
-                4,
-                5,
-                2
-              ],
-              "score": 1.0,
-              "label": "Recent hot streak + high frequency + trending up",
-              "matches": [],
-              "match_count": 0
-            },
-            {
-              "rank": 3,
-              "numbers": [
-                9,
-                5,
-                7
-              ],
-              "score": 1.0,
-              "label": "Recent hot streak + high frequency",
-              "matches": [],
-              "match_count": 0
-            }
-          ],
-          "best_match_count": 0
-        },
-        {
-          "date": "2026-10-07",
-          "actual_numbers": [
-            3,
-            3,
-            3
-          ],
-          "predicted_top_3": [
-            {
-              "rank": 1,
-              "numbers": [
-                9,
-                0,
-                2
-              ],
-              "score": 1.0,
-              "label": "Recent hot streak + high frequency + trending up",
-              "matches": [],
-              "match_count": 0
-            },
-            {
-              "rank": 2,
-              "numbers": [
-                4,
-                5,
-                2
-              ],
-              "score": 1.0,
-              "label": "Recent hot streak + high frequency + trending up",
-              "matches": [],
-              "match_count": 0
-            },
-            {
-              "rank": 3,
-              "numbers": [
-                9,
-                5,
-                1
-              ],
-              "score": 1.0,
-              "label": "Recent hot streak + high frequency",
-              "matches": [],
-              "match_count": 0
-            }
-          ],
-          "best_match_count": 0
-        },
-        {
-          "date": "2026-10-06",
-          "actual_numbers": [
-            2,
             6,
-            2
+            9,
+            9
           ],
           "predicted_top_3": [
             {
               "rank": 1,
               "numbers": [
                 9,
+                6,
+                7
+              ],
+              "score": 1.0,
+              "label": "Recent hot streak + high frequency + overdue numbers",
+              "matches": [],
+              "match_count": 0
+            },
+            {
+              "rank": 2,
+              "numbers": [
+                9,
+                5,
+                2
+              ],
+              "score": 1.0,
+              "label": "Recent hot streak + high frequency + overdue numbers",
+              "matches": [],
+              "match_count": 0
+            },
+            {
+              "rank": 3,
+              "numbers": [
+                4,
+                5,
+                7
+              ],
+              "score": 1.0,
+              "label": "High frequency + overdue numbers",
+              "matches": [],
+              "match_count": 0
+            }
+          ],
+          "best_match_count": 0
+        },
+        {
+          "date": "2026-10-12",
+          "actual_numbers": [
+            1,
+            0,
+            3
+          ],
+          "predicted_top_3": [
+            {
+              "rank": 1,
+              "numbers": [
+                9,
+                6,
+                7
+              ],
+              "score": 1.0,
+              "label": "Recent hot streak + high frequency",
+              "matches": [],
+              "match_count": 0
+            },
+            {
+              "rank": 2,
+              "numbers": [
+                9,
                 0,
                 2
               ],
               "score": 1.0,
-              "label": "Recent hot streak + high frequency + trending up",
+              "label": "Recent hot streak + high frequency + overdue numbers",
               "matches": [
-                2
+                0
               ],
               "match_count": 1
             },
             {
-              "rank": 2,
+              "rank": 3,
               "numbers": [
                 4,
+                0,
+                7
+              ],
+              "score": 1.0,
+              "label": "High frequency + overdue numbers",
+              "matches": [
+                0
+              ],
+              "match_count": 1
+            }
+          ],
+          "best_match_count": 1
+        },
+        {
+          "date": "2026-10-11",
+          "actual_numbers": [
+            6,
+            3,
+            8
+          ],
+          "predicted_top_3": [
+            {
+              "rank": 1,
+              "numbers": [
+                9,
+                0,
+                7
+              ],
+              "score": 1.0,
+              "label": "High frequency + overdue numbers",
+              "matches": [],
+              "match_count": 0
+            },
+            {
+              "rank": 2,
+              "numbers": [
+                9,
                 6,
                 2
               ],
               "score": 1.0,
               "label": "Recent hot streak + high frequency + trending up",
-              "matches": [
-                6,
-                2
-              ],
-              "match_count": 2
+              "matches": [],
+              "match_count": 0
             },
             {
               "rank": 3,
               "numbers": [
+                4,
+                6,
+                7
+              ],
+              "score": 1.0,
+              "label": "Recent hot streak + high frequency + trending up",
+              "matches": [],
+              "match_count": 0
+            }
+          ],
+          "best_match_count": 0
+        },
+        {
+          "date": "2026-10-11",
+          "actual_numbers": [
+            8,
+            6,
+            0
+          ],
+          "predicted_top_3": [
+            {
+              "rank": 1,
+              "numbers": [
+                9,
+                0,
+                2
+              ],
+              "score": 1.0,
+              "label": "Recent hot streak + high frequency",
+              "matches": [],
+              "match_count": 0
+            },
+            {
+              "rank": 2,
+              "numbers": [
+                9,
+                5,
+                7
+              ],
+              "score": 1.0,
+              "label": "High frequency + overdue numbers",
+              "matches": [],
+              "match_count": 0
+            },
+            {
+              "rank": 3,
+              "numbers": [
+                4,
+                0,
+                7
+              ],
+              "score": 1.0,
+              "label": "High frequency + trending up",
+              "matches": [],
+              "match_count": 0
+            }
+          ],
+          "best_match_count": 0
+        },
+        {
+          "date": "2026-10-10",
+          "actual_numbers": [
+            1,
+            6,
+            6
+          ],
+          "predicted_top_3": [
+            {
+              "rank": 1,
+              "numbers": [
+                9,
+                0,
+                2
+              ],
+              "score": 1.0,
+              "label": "Recent hot streak + high frequency",
+              "matches": [],
+              "match_count": 0
+            },
+            {
+              "rank": 2,
+              "numbers": [
                 9,
                 6,
-                1
+                7
               ],
               "score": 1.0,
               "label": "Recent hot streak + high frequency",
@@ -418,27 +405,41 @@
                 6
               ],
               "match_count": 1
+            },
+            {
+              "rank": 3,
+              "numbers": [
+                4,
+                6,
+                2
+              ],
+              "score": 1.0,
+              "label": "Recent hot streak + high frequency + trending up",
+              "matches": [
+                6
+              ],
+              "match_count": 1
             }
           ],
-          "best_match_count": 2
+          "best_match_count": 1
         }
       ],
       "methodology": {
         "factor_weights": {
-          "freq": 0.3345,
-          "recency": 0.1583,
-          "gap": 0.345,
-          "momentum": 0.0,
-          "temporal": 0.0581,
-          "markov": 0.1041
+          "freq": 0.4218,
+          "recency": 0.1557,
+          "gap": 0.3047,
+          "momentum": 0.001,
+          "temporal": 0.0,
+          "markov": 0.1167
         },
         "weight_optimization": {
           "weights_source": "optimized",
           "eval_draws": 80,
           "trials": 707,
-          "default_score": 0.5437,
-          "optimized_score": 0.5717,
-          "improvement": 0.0279
+          "default_score": 0.55,
+          "optimized_score": 0.575,
+          "improvement": 0.025
         },
         "per_number_weight": 0.55,
         "structure_weight": 0.25,
@@ -451,12 +452,12 @@
     },
     "pick4": {
       "game": "Pick 4",
-      "draws_count": 22943,
+      "draws_count": 22951,
       "date_range": {
         "first": "1991-09-30",
-        "last": "2026-10-08"
+        "last": "2026-10-12"
       },
-      "hottest_number": 8,
+      "hottest_number": 4,
       "coldest_number": 6,
       "most_common_pair": [
         0,
@@ -466,18 +467,18 @@
         {
           "rank": 1,
           "numbers": [
-            8,
             7,
             3,
-            2
+            8,
+            8
           ],
           "score": 1.0,
-          "analytic_score": 0.9526,
-          "mc_survival_pct": 265.65,
-          "mc_survival_s2_pct": 321.57,
+          "analytic_score": 0.6079,
+          "mc_survival_pct": 142.88,
+          "mc_survival_s2_pct": 231.4,
           "structural_fit": 1.0,
           "co_occurrence": 1.0,
-          "label": "Overdue numbers",
+          "label": "Recent hot streak + high frequency + trending up",
           "bonus_numbers": [
             3
           ],
@@ -486,18 +487,18 @@
         {
           "rank": 2,
           "numbers": [
-            8,
-            1,
+            5,
             3,
-            4
+            8,
+            7
           ],
           "score": 1.0,
-          "analytic_score": 0.8925,
-          "mc_survival_pct": 254.55,
-          "mc_survival_s2_pct": 307.9,
+          "analytic_score": 0.6048,
+          "mc_survival_pct": 143.33,
+          "mc_survival_s2_pct": 228.78,
           "structural_fit": 1.0,
           "co_occurrence": 1.0,
-          "label": "Overdue numbers",
+          "label": "Trending up",
           "bonus_numbers": [
             5
           ],
@@ -506,72 +507,72 @@
         {
           "rank": 3,
           "numbers": [
+            5,
             8,
             8,
-            3,
-            0
+            8
           ],
           "score": 1.0,
-          "analytic_score": 0.8151,
-          "mc_survival_pct": 236.68,
-          "mc_survival_s2_pct": 288.32,
+          "analytic_score": 0.5916,
+          "mc_survival_pct": 137.7,
+          "mc_survival_s2_pct": 222.4,
           "structural_fit": 1.0,
           "co_occurrence": 1.0,
           "label": "Overdue numbers",
           "bonus_numbers": [
-            7
+            2
           ],
           "bonus_label": "Fireball"
         }
       ],
       "heatmap": {
         "Position 1": {
-          "0": 22,
+          "0": 19,
           "1": 20,
-          "2": 12,
-          "3": 21,
-          "4": 16,
-          "5": 16,
-          "6": 17,
+          "2": 13,
+          "3": 22,
+          "4": 15,
+          "5": 14,
+          "6": 20,
           "7": 21,
-          "8": 15,
+          "8": 16,
           "9": 20
         },
         "Position 2": {
-          "0": 17,
+          "0": 16,
           "1": 13,
-          "2": 17,
-          "3": 18,
-          "4": 21,
+          "2": 16,
+          "3": 19,
+          "4": 20,
           "5": 17,
           "6": 23,
-          "7": 15,
-          "8": 17,
-          "9": 22
+          "7": 17,
+          "8": 16,
+          "9": 23
         },
         "Position 3": {
-          "0": 24,
+          "0": 26,
           "1": 22,
           "2": 15,
-          "3": 23,
-          "4": 17,
-          "5": 14,
-          "6": 14,
-          "7": 18,
-          "8": 15,
-          "9": 18
+          "3": 22,
+          "4": 20,
+          "5": 16,
+          "6": 13,
+          "7": 17,
+          "8": 12,
+          "9": 17
         },
         "Position 4": {
           "0": 18,
-          "1": 15,
-          "2": 20,
-          "3": 14,
-          "4": 19,
-          "5": 17,
-          "6": 16,
+          "1": 14,
+          "2": 21,
+          "3": 15,
+          "4": 17,
+          "5": 19,
+          "6": 14,
           "7": 17,
           "8": 25,
-          "9": 19
+          "9": 20
         }
       },
       "bonus": {
@@ -580,279 +581,274 @@
           0,
           9
         ],
-        "draws_count": 3970,
+        "draws_count": 3978,
         "top": [
           {
             "number": 3,
-            "score": 0.7398
+            "score": 0.7871
           },
           {
             "number": 5,
-            "score": 0.7074
+            "score": 0.6628
           },
           {
-            "number": 7,
-            "score": 0.6648
+            "number": 2,
+            "score": 0.661
           }
         ],
         "hottest": 3,
         "heatmap": {
           "0": 16,
           "1": 18,
-          "2": 19,
-          "3": 20,
+          "2": 20,
+          "3": 21,
           "4": 21,
-          "5": 20,
-          "6": 13,
+          "5": 19,
+          "6": 14,
           "7": 20,
-          "8": 17,
-          "9": 16
+          "8": 16,
+          "9": 15
         }
       },
       "temporal_analysis": {
-        "target_date": "2026-10-09",
+        "target_date": "2026-10-13",
         "season": "Fall",
         "month": "October",
         "seasonal_top": [
           {
             "number": 3,
-            "score": 0.784
+            "score": 0.7834
           },
           {
             "number": 0,
-            "score": 0.6373
+            "score": 0.6254
           },
           {
             "number": 2,
-            "score": 0.5435
-          },
-          {
-            "number": 4,
-            "score": 0.5431
+            "score": 0.5361
           },
           {
             "number": 1,
-            "score": 0.5409
+            "score": 0.5314
           },
           {
             "number": 9,
-            "score": 0.5274
+            "score": 0.5296
+          },
+          {
+            "number": 4,
+            "score": 0.5291
           }
         ]
       },
       "last_5_backtest": [
         {
-          "date": "2026-10-08",
+          "date": "2026-10-12",
           "actual_numbers": [
-            4,
-            2,
-            2,
-            1
-          ],
-          "predicted_top_3": [
-            {
-              "rank": 1,
-              "numbers": [
-                8,
-                7,
-                2,
-                2
-              ],
-              "score": 1.0,
-              "label": "Overdue numbers",
-              "matches": [
-                2
-              ],
-              "match_count": 1
-            },
-            {
-              "rank": 2,
-              "numbers": [
-                8,
-                1,
-                3,
-                2
-              ],
-              "score": 1.0,
-              "label": "Overdue numbers",
-              "matches": [],
-              "match_count": 0
-            },
-            {
-              "rank": 3,
-              "numbers": [
-                8,
-                7,
-                3,
-                4
-              ],
-              "score": 1.0,
-              "label": "Overdue numbers",
-              "matches": [],
-              "match_count": 0
-            }
-          ],
-          "best_match_count": 1
-        },
-        {
-          "date": "2026-10-08",
-          "actual_numbers": [
-            0,
             6,
-            1,
-            8
+            6,
+            0,
+            9
           ],
           "predicted_top_3": [
             {
               "rank": 1,
               "numbers": [
+                3,
+                3,
                 8,
-                7,
-                1,
-                2
+                8
               ],
               "score": 1.0,
-              "label": "Overdue numbers",
-              "matches": [
-                1
-              ],
-              "match_count": 1
+              "label": "Recent hot streak + high frequency + trending up",
+              "matches": [],
+              "match_count": 0
             },
             {
               "rank": 2,
               "numbers": [
+                5,
+                3,
                 8,
-                1,
-                1,
-                4
+                7
               ],
               "score": 1.0,
-              "label": "Overdue numbers",
-              "matches": [
-                1
-              ],
-              "match_count": 1
+              "label": "Trending up",
+              "matches": [],
+              "match_count": 0
             },
             {
               "rank": 3,
               "numbers": [
-                8,
-                1,
-                2,
-                2
+                3,
+                3,
+                3,
+                7
               ],
               "score": 1.0,
-              "label": "Overdue numbers",
+              "label": "Recent hot streak + high frequency + trending up",
               "matches": [],
               "match_count": 0
             }
           ],
-          "best_match_count": 1
+          "best_match_count": 0
         },
         {
-          "date": "2026-10-07",
+          "date": "2026-10-12",
           "actual_numbers": [
-            4,
-            3,
-            9,
-            8
+            2,
+            7,
+            5,
+            7
           ],
           "predicted_top_3": [
             {
               "rank": 1,
               "numbers": [
+                3,
+                3,
                 8,
-                7,
-                1,
-                2
+                8
               ],
               "score": 1.0,
-              "label": "Overdue numbers",
+              "label": "Recent hot streak + high frequency + trending up",
               "matches": [],
               "match_count": 0
             },
             {
               "rank": 2,
               "numbers": [
-                8,
-                1,
+                5,
                 9,
-                2
+                8,
+                8
               ],
               "score": 1.0,
-              "label": "Overdue numbers",
-              "matches": [
+              "label": "Trending up",
+              "matches": [],
+              "match_count": 0
+            },
+            {
+              "rank": 3,
+              "numbers": [
+                3,
+                9,
+                8,
                 9
               ],
+              "score": 1.0,
+              "label": "High frequency",
+              "matches": [],
+              "match_count": 0
+            }
+          ],
+          "best_match_count": 0
+        },
+        {
+          "date": "2026-10-11",
+          "actual_numbers": [
+            6,
+            3,
+            4,
+            7
+          ],
+          "predicted_top_3": [
+            {
+              "rank": 1,
+              "numbers": [
+                3,
+                3,
+                8,
+                7
+              ],
+              "score": 1.0,
+              "label": "Trending up",
+              "matches": [
+                3,
+                7
+              ],
+              "match_count": 2
+            },
+            {
+              "rank": 2,
+              "numbers": [
+                5,
+                3,
+                8,
+                8
+              ],
+              "score": 1.0,
+              "label": "Trending up",
+              "matches": [
+                3
+              ],
               "match_count": 1
             },
             {
               "rank": 3,
               "numbers": [
+                3,
+                9,
                 8,
-                1,
-                1,
-                4
+                8
               ],
               "score": 1.0,
-              "label": "Overdue numbers",
+              "label": "Recent hot streak + high frequency + trending up",
               "matches": [],
               "match_count": 0
             }
           ],
-          "best_match_count": 1
+          "best_match_count": 2
         },
         {
-          "date": "2026-10-07",
+          "date": "2026-10-11",
           "actual_numbers": [
-            7,
-            3,
-            6,
+            8,
+            9,
+            0,
             3
           ],
           "predicted_top_3": [
             {
               "rank": 1,
               "numbers": [
+                3,
+                9,
                 8,
-                7,
-                1,
-                3
+                7
               ],
               "score": 1.0,
-              "label": "Overdue numbers",
+              "label": "Overdue numbers + trending up",
               "matches": [
-                3
+                9
               ],
               "match_count": 1
             },
             {
               "rank": 2,
               "numbers": [
+                3,
+                3,
                 8,
-                1,
-                9,
-                3
+                8
               ],
               "score": 1.0,
-              "label": "Overdue numbers",
-              "matches": [
-                3
-              ],
-              "match_count": 1
+              "label": "Recent hot streak + high frequency + trending up",
+              "matches": [],
+              "match_count": 0
             },
             {
               "rank": 3,
               "numbers": [
+                7,
+                9,
                 8,
-                8,
-                2,
-                3
+                8
               ],
               "score": 1.0,
-              "label": "Overdue numbers",
+              "label": "Recent hot streak + high frequency + trending up",
               "matches": [
-                3
+                9
               ],
               "match_count": 1
             }
@@ -860,50 +856,50 @@
           "best_match_count": 1
         },
         {
-          "date": "2026-10-06",
+          "date": "2026-10-10",
           "actual_numbers": [
-            7,
+            9,
             5,
-            0,
-            6
+            4,
+            2
           ],
           "predicted_top_3": [
             {
               "rank": 1,
               "numbers": [
+                3,
+                9,
                 8,
-                7,
-                1,
-                3
+                8
               ],
               "score": 1.0,
-              "label": "Overdue numbers",
+              "label": "Recent hot streak + high frequency + trending up",
               "matches": [],
               "match_count": 0
             },
             {
               "rank": 2,
               "numbers": [
-                8,
-                1,
+                7,
                 9,
-                3
+                8,
+                7
               ],
               "score": 1.0,
-              "label": "Overdue numbers",
+              "label": "Overdue numbers + trending up",
               "matches": [],
               "match_count": 0
             },
             {
               "rank": 3,
               "numbers": [
-                8,
-                8,
-                2,
-                3
+                3,
+                9,
+                7,
+                7
               ],
               "score": 1.0,
-              "label": "Overdue numbers",
+              "label": "High frequency + trending up",
               "matches": [],
               "match_count": 0
             }
@@ -913,20 +909,20 @@
       ],
       "methodology": {
         "factor_weights": {
-          "freq": 0.0,
+          "freq": 0.006,
           "recency": 0.0,
-          "gap": 0.9359,
-          "momentum": 0.0035,
-          "temporal": 0.0,
-          "markov": 0.0607
+          "gap": 0.2636,
+          "momentum": 0.3352,
+          "temporal": 0.2697,
+          "markov": 0.1254
         },
         "weight_optimization": {
           "weights_source": "optimized",
           "eval_draws": 80,
           "trials": 707,
-          "default_score": 0.5209,
-          "optimized_score": 0.5541,
-          "improvement": 0.0331
+          "default_score": 0.5169,
+          "optimized_score": 0.5522,
+          "improvement": 0.0353
         },
         "per_number_weight": 0.55,
         "structure_weight": 0.25,
@@ -939,68 +935,68 @@
     },
     "cash5": {
       "game": "Cash 5",
-      "draws_count": 18291,
+      "draws_count": 18295,
       "date_range": {
         "first": "1993-02-05",
-        "last": "2026-10-08"
+        "last": "2026-10-12"
       },
       "hottest_number": 17,
-      "coldest_number": 18,
+      "coldest_number": 30,
       "most_common_pair": [
-        5,
-        38
+        36,
+        45
       ],
       "top_picks": [
         {
           "rank": 1,
           "numbers": [
             17,
-            37,
-            20,
+            40,
             7,
-            40
+            19,
+            36
           ],
           "score": 1.0,
-          "analytic_score": 0.6622,
-          "mc_survival_pct": 135.65,
-          "mc_survival_s2_pct": 208.17,
-          "structural_fit": 0.9962,
-          "co_occurrence": 0.4143,
-          "label": "High frequency + overdue numbers"
+          "analytic_score": 0.6064,
+          "mc_survival_pct": 134.33,
+          "mc_survival_s2_pct": 211.8,
+          "structural_fit": 0.9993,
+          "co_occurrence": 0.2,
+          "label": "Overdue numbers"
         },
         {
           "rank": 2,
           "numbers": [
-            37,
+            40,
             7,
-            27,
             16,
-            42
+            20,
+            37
           ],
           "score": 1.0,
-          "analytic_score": 0.6646,
-          "mc_survival_pct": 131.15,
-          "mc_survival_s2_pct": 201.79,
-          "structural_fit": 0.9388,
-          "co_occurrence": 0.5571,
+          "analytic_score": 0.6411,
+          "mc_survival_pct": 124.15,
+          "mc_survival_s2_pct": 197.01,
+          "structural_fit": 0.9303,
+          "co_occurrence": 0.5857,
           "label": "Recent hot streak + high frequency"
         },
         {
           "rank": 3,
           "numbers": [
             17,
-            7,
-            27,
-            44,
-            36
+            16,
+            19,
+            42,
+            9
           ],
           "score": 1.0,
-          "analytic_score": 0.6303,
-          "mc_survival_pct": 131.61,
-          "mc_survival_s2_pct": 202.19,
-          "structural_fit": 0.8773,
-          "co_occurrence": 0.4571,
-          "label": "Overdue numbers"
+          "analytic_score": 0.5695,
+          "mc_survival_pct": 127.62,
+          "mc_survival_s2_pct": 201.87,
+          "structural_fit": 0.8275,
+          "co_occurrence": 0.3143,
+          "label": "High frequency"
         }
       ],
       "heatmap": {
@@ -1008,51 +1004,51 @@
         "2": 24,
         "3": 21,
         "4": 21,
-        "5": 22,
-        "6": 16,
-        "7": 22,
-        "8": 13,
-        "9": 18,
-        "10": 16,
-        "11": 19,
+        "5": 21,
+        "6": 17,
+        "7": 21,
+        "8": 12,
+        "9": 17,
+        "10": 15,
+        "11": 20,
         "12": 23,
         "13": 20,
-        "14": 22,
-        "15": 21,
+        "14": 21,
+        "15": 20,
         "16": 31,
-        "17": 20,
+        "17": 19,
         "18": 10,
         "19": 17,
-        "20": 29,
-        "21": 17,
-        "22": 22,
+        "20": 30,
+        "21": 16,
+        "22": 23,
         "23": 16,
         "24": 21,
         "25": 21,
         "26": 19,
-        "27": 20,
+        "27": 22,
         "28": 13,
-        "29": 23,
-        "30": 10,
+        "29": 22,
+        "30": 12,
         "31": 17,
         "32": 16,
         "33": 20,
         "34": 24,
         "35": 15,
-        "36": 22,
-        "37": 29,
-        "38": 27,
+        "36": 21,
+        "37": 30,
+        "38": 26,
         "39": 25,
         "40": 15,
         "41": 17,
-        "42": 30,
+        "42": 31,
         "43": 18,
-        "44": 19,
-        "45": 21
+        "44": 20,
+        "45": 22
       },
       "bonus": null,
       "temporal_analysis": {
-        "target_date": "2026-10-09",
+        "target_date": "2026-10-13",
         "season": "Fall",
         "month": "October",
         "seasonal_top": [
@@ -1061,12 +1057,12 @@
             "score": 1.0
           },
           {
-            "number": 25,
-            "score": 0.7982
+            "number": 45,
+            "score": 0.851
           },
           {
-            "number": 45,
-            "score": 0.7403
+            "number": 25,
+            "score": 0.8032
           },
           {
             "number": 43,
@@ -1074,15 +1070,249 @@
           },
           {
             "number": 14,
-            "score": 0.6349
+            "score": 0.6348
           },
           {
-            "number": 28,
-            "score": 0.6209
+            "number": 29,
+            "score": 0.6249
           }
         ]
       },
       "last_5_backtest": [
+        {
+          "date": "2026-10-12",
+          "actual_numbers": [
+            12,
+            22,
+            27,
+            37,
+            45
+          ],
+          "predicted_top_3": [
+            {
+              "rank": 1,
+              "numbers": [
+                17,
+                37,
+                40,
+                7,
+                16
+              ],
+              "score": 1.0,
+              "label": "High frequency + overdue numbers",
+              "matches": [
+                37
+              ],
+              "match_count": 1
+            },
+            {
+              "rank": 2,
+              "numbers": [
+                17,
+                37,
+                19,
+                36,
+                2
+              ],
+              "score": 1.0,
+              "label": "Overdue numbers",
+              "matches": [
+                37
+              ],
+              "match_count": 1
+            },
+            {
+              "rank": 3,
+              "numbers": [
+                37,
+                19,
+                16,
+                42,
+                9
+              ],
+              "score": 1.0,
+              "label": "High frequency",
+              "matches": [
+                37
+              ],
+              "match_count": 1
+            }
+          ],
+          "best_match_count": 1
+        },
+        {
+          "date": "2026-10-11",
+          "actual_numbers": [
+            25,
+            27,
+            30,
+            33,
+            35
+          ],
+          "predicted_top_3": [
+            {
+              "rank": 1,
+              "numbers": [
+                17,
+                27,
+                37,
+                40,
+                7
+              ],
+              "score": 1.0,
+              "label": "Overdue numbers",
+              "matches": [
+                27
+              ],
+              "match_count": 1
+            },
+            {
+              "rank": 2,
+              "numbers": [
+                37,
+                7,
+                19,
+                16,
+                42
+              ],
+              "score": 1.0,
+              "label": "High frequency",
+              "matches": [],
+              "match_count": 0
+            },
+            {
+              "rank": 3,
+              "numbers": [
+                17,
+                27,
+                19,
+                16,
+                36
+              ],
+              "score": 1.0,
+              "label": "Overdue numbers",
+              "matches": [
+                27
+              ],
+              "match_count": 1
+            }
+          ],
+          "best_match_count": 1
+        },
+        {
+          "date": "2026-10-10",
+          "actual_numbers": [
+            11,
+            20,
+            32,
+            41,
+            44
+          ],
+          "predicted_top_3": [
+            {
+              "rank": 1,
+              "numbers": [
+                17,
+                37,
+                40,
+                20,
+                7
+              ],
+              "score": 1.0,
+              "label": "High frequency + overdue numbers",
+              "matches": [
+                20
+              ],
+              "match_count": 1
+            },
+            {
+              "rank": 2,
+              "numbers": [
+                17,
+                27,
+                7,
+                44,
+                36
+              ],
+              "score": 1.0,
+              "label": "Overdue numbers",
+              "matches": [
+                44
+              ],
+              "match_count": 1
+            },
+            {
+              "rank": 3,
+              "numbers": [
+                27,
+                40,
+                7,
+                19,
+                16
+              ],
+              "score": 1.0,
+              "label": "Overdue numbers",
+              "matches": [],
+              "match_count": 0
+            }
+          ],
+          "best_match_count": 1
+        },
+        {
+          "date": "2026-10-09",
+          "actual_numbers": [
+            1,
+            6,
+            29,
+            30,
+            42
+          ],
+          "predicted_top_3": [
+            {
+              "rank": 1,
+              "numbers": [
+                17,
+                37,
+                40,
+                20,
+                7
+              ],
+              "score": 1.0,
+              "label": "High frequency + overdue numbers",
+              "matches": [],
+              "match_count": 0
+            },
+            {
+              "rank": 2,
+              "numbers": [
+                17,
+                27,
+                7,
+                44,
+                36
+              ],
+              "score": 1.0,
+              "label": "Overdue numbers",
+              "matches": [],
+              "match_count": 0
+            },
+            {
+              "rank": 3,
+              "numbers": [
+                27,
+                40,
+                7,
+                19,
+                16
+              ],
+              "score": 1.0,
+              "label": "Overdue numbers",
+              "matches": [],
+              "match_count": 0
+            }
+          ],
+          "best_match_count": 0
+        },
         {
           "date": "2026-10-08",
           "actual_numbers": [
@@ -1097,10 +1327,24 @@
               "rank": 1,
               "numbers": [
                 17,
-                37,
+                27,
+                40,
                 7,
-                20,
-                40
+                20
+              ],
+              "score": 1.0,
+              "label": "Overdue numbers",
+              "matches": [],
+              "match_count": 0
+            },
+            {
+              "rank": 2,
+              "numbers": [
+                40,
+                7,
+                37,
+                19,
+                16
               ],
               "score": 1.0,
               "label": "High frequency + overdue numbers",
@@ -1108,30 +1352,16 @@
               "match_count": 0
             },
             {
-              "rank": 2,
-              "numbers": [
-                37,
-                7,
-                27,
-                16,
-                42
-              ],
-              "score": 1.0,
-              "label": "Recent hot streak + high frequency",
-              "matches": [],
-              "match_count": 0
-            },
-            {
               "rank": 3,
               "numbers": [
                 17,
+                37,
                 20,
-                27,
                 3,
-                36
+                44
               ],
               "score": 1.0,
-              "label": "Overdue numbers",
+              "label": "High frequency + overdue numbers",
               "matches": [
                 3
               ],
@@ -1139,254 +1369,26 @@
             }
           ],
           "best_match_count": 1
-        },
-        {
-          "date": "2026-10-07",
-          "actual_numbers": [
-            5,
-            24,
-            26,
-            28,
-            38
-          ],
-          "predicted_top_3": [
-            {
-              "rank": 1,
-              "numbers": [
-                17,
-                37,
-                7,
-                20,
-                40
-              ],
-              "score": 1.0,
-              "label": "High frequency + overdue numbers",
-              "matches": [],
-              "match_count": 0
-            },
-            {
-              "rank": 2,
-              "numbers": [
-                37,
-                7,
-                27,
-                16,
-                44
-              ],
-              "score": 1.0,
-              "label": "High frequency",
-              "matches": [],
-              "match_count": 0
-            },
-            {
-              "rank": 3,
-              "numbers": [
-                17,
-                27,
-                20,
-                3,
-                36
-              ],
-              "score": 1.0,
-              "label": "Overdue numbers",
-              "matches": [],
-              "match_count": 0
-            }
-          ],
-          "best_match_count": 0
-        },
-        {
-          "date": "2026-10-06",
-          "actual_numbers": [
-            10,
-            11,
-            18,
-            21,
-            35
-          ],
-          "predicted_top_3": [
-            {
-              "rank": 1,
-              "numbers": [
-                17,
-                7,
-                37,
-                40,
-                20
-              ],
-              "score": 1.0,
-              "label": "High frequency + overdue numbers",
-              "matches": [],
-              "match_count": 0
-            },
-            {
-              "rank": 2,
-              "numbers": [
-                17,
-                7,
-                27,
-                44,
-                36
-              ],
-              "score": 1.0,
-              "label": "Overdue numbers",
-              "matches": [],
-              "match_count": 0
-            },
-            {
-              "rank": 3,
-              "numbers": [
-                7,
-                27,
-                37,
-                16,
-                42
-              ],
-              "score": 1.0,
-              "label": "Recent hot streak + high frequency",
-              "matches": [],
-              "match_count": 0
-            }
-          ],
-          "best_match_count": 0
-        },
-        {
-          "date": "2026-10-05",
-          "actual_numbers": [
-            4,
-            11,
-            14,
-            24,
-            42
-          ],
-          "predicted_top_3": [
-            {
-              "rank": 1,
-              "numbers": [
-                17,
-                7,
-                37,
-                42,
-                20
-              ],
-              "score": 1.0,
-              "label": "High frequency",
-              "matches": [
-                42
-              ],
-              "match_count": 1
-            },
-            {
-              "rank": 2,
-              "numbers": [
-                17,
-                11,
-                27,
-                20,
-                44
-              ],
-              "score": 1.0,
-              "label": "Overdue numbers",
-              "matches": [
-                11
-              ],
-              "match_count": 1
-            },
-            {
-              "rank": 3,
-              "numbers": [
-                11,
-                7,
-                37,
-                40,
-                16
-              ],
-              "score": 1.0,
-              "label": "High frequency",
-              "matches": [
-                11
-              ],
-              "match_count": 1
-            }
-          ],
-          "best_match_count": 1
-        },
-        {
-          "date": "2026-10-04",
-          "actual_numbers": [
-            14,
-            33,
-            38,
-            39,
-            41
-          ],
-          "predicted_top_3": [
-            {
-              "rank": 1,
-              "numbers": [
-                17,
-                7,
-                37,
-                42,
-                20
-              ],
-              "score": 1.0,
-              "label": "High frequency",
-              "matches": [],
-              "match_count": 0
-            },
-            {
-              "rank": 2,
-              "numbers": [
-                17,
-                41,
-                27,
-                3,
-                20
-              ],
-              "score": 1.0,
-              "label": "Overdue numbers",
-              "matches": [
-                41
-              ],
-              "match_count": 1
-            },
-            {
-              "rank": 3,
-              "numbers": [
-                17,
-                11,
-                27,
-                42,
-                44
-              ],
-              "score": 1.0,
-              "label": "Overdue numbers",
-              "matches": [],
-              "match_count": 0
-            }
-          ],
-          "best_match_count": 1
         }
       ],
       "methodology": {
         "factor_weights": {
-          "freq": 0.1907,
+          "freq": 0.0605,
           "recency": 0.0,
-          "gap": 0.3078,
-          "pair": 0.1361,
+          "gap": 0.2811,
+          "pair": 0.1486,
           "momentum": 0.0,
           "temporal": 0.0,
-          "position": 0.3655,
-          "markov": 0.0
+          "position": 0.4703,
+          "markov": 0.0395
         },
         "weight_optimization": {
           "weights_source": "optimized",
           "eval_draws": 80,
           "trials": 710,
-          "default_score": 2.5658,
-          "optimized_score": 2.7031,
-          "improvement": 0.1372
+          "default_score": 2.5847,
+          "optimized_score": 2.7253,
+          "improvement": 0.1406
         },
         "per_number_weight": 0.55,
         "structure_weight": 0.25,
@@ -1405,16 +1407,16 @@
     },
     "millionaire": {
       "game": "Millionaire for Life",
-      "draws_count": 229,
+      "draws_count": 233,
       "date_range": {
         "first": "2026-02-22",
-        "last": "2026-10-08"
+        "last": "2026-10-12"
       },
       "hottest_number": 1,
       "coldest_number": 1,
       "most_common_pair": [
-        32,
-        51
+        2,
+        57
       ],
       "top_picks": [
         {
@@ -1427,12 +1429,12 @@
             25
           ],
           "score": 1.0,
-          "analytic_score": 0.5803,
+          "analytic_score": 0.5987,
           "mc_survival_pct": 100.26,
           "mc_survival_s2_pct": 240.37,
-          "structural_fit": 0.9545,
-          "co_occurrence": 0.3333,
-          "label": "Recent hot streak + high frequency + trending up",
+          "structural_fit": 0.975,
+          "co_occurrence": 0.4,
+          "label": "Recent hot streak + high frequency",
           "bonus_numbers": [
             2
           ],
@@ -1448,14 +1450,14 @@
             20
           ],
           "score": 1.0,
-          "analytic_score": 0.565,
+          "analytic_score": 0.592,
           "mc_survival_pct": 100.22,
           "mc_survival_s2_pct": 240.1,
-          "structural_fit": 0.9201,
-          "co_occurrence": 0.3,
+          "structural_fit": 0.9802,
+          "co_occurrence": 0.36,
           "label": "Recent hot streak + high frequency",
           "bonus_numbers": [
-            3
+            4
           ],
           "bonus_label": "Millionaire Ball"
         },
@@ -1469,77 +1471,77 @@
             3
           ],
           "score": 1.0,
-          "analytic_score": 0.5598,
+          "analytic_score": 0.5738,
           "mc_survival_pct": 100.23,
           "mc_survival_s2_pct": 240.11,
-          "structural_fit": 0.9392,
-          "co_occurrence": 0.25,
+          "structural_fit": 0.9393,
+          "co_occurrence": 0.32,
           "label": "Recent hot streak + high frequency",
           "bonus_numbers": [
-            4
+            3
           ],
           "bonus_label": "Millionaire Ball"
         }
       ],
       "heatmap": {
-        "1": 16,
-        "2": 21,
-        "3": 19,
+        "1": 17,
+        "2": 20,
+        "3": 20,
         "4": 19,
-        "5": 14,
+        "5": 15,
         "6": 17,
         "7": 19,
         "8": 17,
         "9": 11,
-        "10": 11,
+        "10": 10,
         "11": 11,
         "12": 13,
-        "13": 22,
-        "14": 17,
-        "15": 16,
-        "16": 15,
+        "13": 21,
+        "14": 16,
+        "15": 15,
+        "16": 17,
         "17": 20,
         "18": 15,
-        "19": 14,
+        "19": 13,
         "20": 16,
         "21": 19,
         "22": 12,
         "23": 17,
         "24": 13,
         "25": 21,
-        "26": 13,
+        "26": 14,
         "27": 13,
         "28": 15,
         "29": 16,
         "30": 19,
-        "31": 13,
-        "32": 18,
+        "31": 12,
+        "32": 16,
         "33": 15,
         "34": 9,
         "35": 19,
-        "36": 15,
+        "36": 14,
         "37": 15,
-        "38": 14,
+        "38": 15,
         "39": 10,
-        "40": 20,
-        "41": 16,
-        "42": 21,
-        "43": 13,
-        "44": 15,
-        "45": 17,
+        "40": 21,
+        "41": 15,
+        "42": 20,
+        "43": 15,
+        "44": 16,
+        "45": 18,
         "46": 15,
         "47": 14,
         "48": 13,
-        "49": 12,
+        "49": 13,
         "50": 14,
-        "51": 19,
+        "51": 20,
         "52": 15,
-        "53": 12,
+        "53": 11,
         "54": 15,
         "55": 16,
         "56": 10,
         "57": 18,
-        "58": 16,
+        "58": 15,
         "59": 0,
         "60": 0
       },
@@ -1549,63 +1551,287 @@
           1,
           6
         ],
-        "draws_count": 229,
+        "draws_count": 233,
         "top": [
           {
             "number": 2,
-            "score": 0.764
-          },
-          {
-            "number": 3,
-            "score": 0.7625
+            "score": 0.7678
           },
           {
             "number": 4,
-            "score": 0.7194
+            "score": 0.7543
+          },
+          {
+            "number": 3,
+            "score": 0.7272
           }
         ],
         "hottest": 2,
         "heatmap": {
-          "1": 31,
-          "2": 40,
-          "3": 37,
+          "1": 32,
+          "2": 39,
+          "3": 36,
           "4": 45,
-          "5": 27,
+          "5": 28,
           "6": 0
         }
       },
       "temporal_analysis": {
-        "target_date": "2026-10-09",
+        "target_date": "2026-10-13",
         "season": "Fall",
         "month": "October",
         "seasonal_top": [
           {
-            "number": 33,
+            "number": 41,
             "score": 1.0
           },
           {
-            "number": 41,
-            "score": 0.8774
+            "number": 16,
+            "score": 0.9388
+          },
+          {
+            "number": 33,
+            "score": 0.9214
+          },
+          {
+            "number": 43,
+            "score": 0.812
           },
           {
             "number": 57,
-            "score": 0.6947
+            "score": 0.8012
           },
           {
-            "number": 46,
-            "score": 0.6415
-          },
-          {
-            "number": 12,
-            "score": 0.6215
-          },
-          {
-            "number": 16,
-            "score": 0.6157
+            "number": 40,
+            "score": 0.7403
           }
         ]
       },
       "last_5_backtest": [
+        {
+          "date": "2026-10-12",
+          "actual_numbers": [
+            16,
+            40,
+            43,
+            51,
+            54
+          ],
+          "predicted_top_3": [
+            {
+              "rank": 1,
+              "numbers": [
+                4,
+                33,
+                36,
+                46,
+                25
+              ],
+              "score": 1.0,
+              "label": "Recent hot streak + high frequency",
+              "matches": [],
+              "match_count": 0
+            },
+            {
+              "rank": 2,
+              "numbers": [
+                36,
+                55,
+                17,
+                25,
+                20
+              ],
+              "score": 1.0,
+              "label": "Recent hot streak + high frequency",
+              "matches": [],
+              "match_count": 0
+            },
+            {
+              "rank": 3,
+              "numbers": [
+                33,
+                16,
+                46,
+                20,
+                3
+              ],
+              "score": 1.0,
+              "label": "Recent hot streak + high frequency",
+              "matches": [
+                16
+              ],
+              "match_count": 1
+            }
+          ],
+          "best_match_count": 1
+        },
+        {
+          "date": "2026-10-11",
+          "actual_numbers": [
+            35,
+            43,
+            44,
+            45,
+            49
+          ],
+          "predicted_top_3": [
+            {
+              "rank": 1,
+              "numbers": [
+                4,
+                33,
+                36,
+                46,
+                25
+              ],
+              "score": 1.0,
+              "label": "Recent hot streak + high frequency",
+              "matches": [],
+              "match_count": 0
+            },
+            {
+              "rank": 2,
+              "numbers": [
+                36,
+                55,
+                17,
+                25,
+                20
+              ],
+              "score": 1.0,
+              "label": "Recent hot streak + high frequency",
+              "matches": [],
+              "match_count": 0
+            },
+            {
+              "rank": 3,
+              "numbers": [
+                33,
+                16,
+                46,
+                20,
+                3
+              ],
+              "score": 1.0,
+              "label": "Recent hot streak + high frequency",
+              "matches": [],
+              "match_count": 0
+            }
+          ],
+          "best_match_count": 0
+        },
+        {
+          "date": "2026-10-10",
+          "actual_numbers": [
+            3,
+            16,
+            26,
+            38,
+            41
+          ],
+          "predicted_top_3": [
+            {
+              "rank": 1,
+              "numbers": [
+                4,
+                33,
+                36,
+                46,
+                25
+              ],
+              "score": 1.0,
+              "label": "Recent hot streak + high frequency + trending up",
+              "matches": [],
+              "match_count": 0
+            },
+            {
+              "rank": 2,
+              "numbers": [
+                36,
+                55,
+                17,
+                25,
+                20
+              ],
+              "score": 1.0,
+              "label": "Recent hot streak + high frequency",
+              "matches": [],
+              "match_count": 0
+            },
+            {
+              "rank": 3,
+              "numbers": [
+                33,
+                17,
+                46,
+                20,
+                3
+              ],
+              "score": 1.0,
+              "label": "Recent hot streak + high frequency",
+              "matches": [
+                3
+              ],
+              "match_count": 1
+            }
+          ],
+          "best_match_count": 1
+        },
+        {
+          "date": "2026-10-09",
+          "actual_numbers": [
+            1,
+            2,
+            5,
+            51,
+            57
+          ],
+          "predicted_top_3": [
+            {
+              "rank": 1,
+              "numbers": [
+                4,
+                33,
+                36,
+                46,
+                25
+              ],
+              "score": 1.0,
+              "label": "Recent hot streak + high frequency + trending up",
+              "matches": [],
+              "match_count": 0
+            },
+            {
+              "rank": 2,
+              "numbers": [
+                36,
+                55,
+                17,
+                25,
+                20
+              ],
+              "score": 1.0,
+              "label": "Recent hot streak + high frequency",
+              "matches": [],
+              "match_count": 0
+            },
+            {
+              "rank": 3,
+              "numbers": [
+                33,
+                16,
+                46,
+                20,
+                3
+              ],
+              "score": 1.0,
+              "label": "Recent hot streak + high frequency",
+              "matches": [],
+              "match_count": 0
+            }
+          ],
+          "best_match_count": 0
+        },
         {
           "date": "2026-10-08",
           "actual_numbers": [
@@ -1667,244 +1893,6 @@
             }
           ],
           "best_match_count": 2
-        },
-        {
-          "date": "2026-10-07",
-          "actual_numbers": [
-            15,
-            19,
-            33,
-            52,
-            57
-          ],
-          "predicted_top_3": [
-            {
-              "rank": 1,
-              "numbers": [
-                33,
-                36,
-                46,
-                25,
-                3
-              ],
-              "score": 1.0,
-              "label": "Recent hot streak + high frequency",
-              "matches": [
-                33
-              ],
-              "match_count": 1
-            },
-            {
-              "rank": 2,
-              "numbers": [
-                36,
-                55,
-                17,
-                25,
-                20
-              ],
-              "score": 1.0,
-              "label": "Recent hot streak + high frequency",
-              "matches": [],
-              "match_count": 0
-            },
-            {
-              "rank": 3,
-              "numbers": [
-                33,
-                59,
-                16,
-                25,
-                20
-              ],
-              "score": 1.0,
-              "label": "Balanced score",
-              "matches": [
-                33
-              ],
-              "match_count": 1
-            }
-          ],
-          "best_match_count": 1
-        },
-        {
-          "date": "2026-10-06",
-          "actual_numbers": [
-            16,
-            25,
-            27,
-            41,
-            46
-          ],
-          "predicted_top_3": [
-            {
-              "rank": 1,
-              "numbers": [
-                33,
-                36,
-                46,
-                25,
-                3
-              ],
-              "score": 1.0,
-              "label": "Recent hot streak + high frequency",
-              "matches": [
-                25,
-                46
-              ],
-              "match_count": 2
-            },
-            {
-              "rank": 2,
-              "numbers": [
-                36,
-                55,
-                17,
-                25,
-                20
-              ],
-              "score": 1.0,
-              "label": "Recent hot streak + high frequency",
-              "matches": [
-                25
-              ],
-              "match_count": 1
-            },
-            {
-              "rank": 3,
-              "numbers": [
-                33,
-                59,
-                16,
-                25,
-                20
-              ],
-              "score": 1.0,
-              "label": "Balanced score",
-              "matches": [
-                16,
-                25
-              ],
-              "match_count": 2
-            }
-          ],
-          "best_match_count": 2
-        },
-        {
-          "date": "2026-10-05",
-          "actual_numbers": [
-            2,
-            9,
-            21,
-            41,
-            57
-          ],
-          "predicted_top_3": [
-            {
-              "rank": 1,
-              "numbers": [
-                33,
-                36,
-                46,
-                25,
-                3
-              ],
-              "score": 1.0,
-              "label": "Recent hot streak + high frequency",
-              "matches": [],
-              "match_count": 0
-            },
-            {
-              "rank": 2,
-              "numbers": [
-                36,
-                55,
-                17,
-                25,
-                20
-              ],
-              "score": 1.0,
-              "label": "Recent hot streak + high frequency",
-              "matches": [],
-              "match_count": 0
-            },
-            {
-              "rank": 3,
-              "numbers": [
-                33,
-                59,
-                16,
-                25,
-                20
-              ],
-              "score": 1.0,
-              "label": "Balanced score",
-              "matches": [],
-              "match_count": 0
-            }
-          ],
-          "best_match_count": 0
-        },
-        {
-          "date": "2026-10-04",
-          "actual_numbers": [
-            3,
-            4,
-            18,
-            20,
-            40
-          ],
-          "predicted_top_3": [
-            {
-              "rank": 1,
-              "numbers": [
-                33,
-                36,
-                46,
-                25,
-                3
-              ],
-              "score": 1.0,
-              "label": "Recent hot streak + high frequency",
-              "matches": [
-                3
-              ],
-              "match_count": 1
-            },
-            {
-              "rank": 2,
-              "numbers": [
-                36,
-                55,
-                17,
-                25,
-                20
-              ],
-              "score": 1.0,
-              "label": "Recent hot streak + high frequency",
-              "matches": [
-                20
-              ],
-              "match_count": 1
-            },
-            {
-              "rank": 3,
-              "numbers": [
-                33,
-                59,
-                16,
-                25,
-                20
-              ],
-              "score": 1.0,
-              "label": "Balanced score",
-              "matches": [
-                20
-              ],
-              "match_count": 1
-            }
-          ],
-          "best_match_count": 1
         }
       ],
       "methodology": {
@@ -1922,9 +1910,9 @@
           "weights_source": "optimized",
           "eval_draws": 80,
           "trials": 710,
-          "default_score": 2.4865,
-          "optimized_score": 2.6477,
-          "improvement": 0.1612
+          "default_score": 2.5137,
+          "optimized_score": 2.6671,
+          "improvement": 0.1533
         },
         "per_number_weight": 0.55,
         "structure_weight": 0.25,
@@ -1943,13 +1931,13 @@
     },
     "powerball": {
       "game": "Powerball",
-      "draws_count": 2009,
+      "draws_count": 2011,
       "date_range": {
         "first": "2010-02-03",
-        "last": "2026-10-07"
+        "last": "2026-10-12"
       },
       "hottest_number": 58,
-      "coldest_number": 52,
+      "coldest_number": 1,
       "most_common_pair": [
         66,
         67
@@ -1959,18 +1947,18 @@
           "rank": 1,
           "numbers": [
             58,
-            14,
             65,
-            29,
-            8
+            4,
+            40,
+            9
           ],
           "score": 1.0,
-          "analytic_score": 0.6216,
-          "mc_survival_pct": 133.14,
-          "mc_survival_s2_pct": 307.31,
-          "structural_fit": 0.93,
-          "co_occurrence": 0.26,
-          "label": "Recent hot streak + high frequency + trending up",
+          "analytic_score": 0.5877,
+          "mc_survival_pct": 139.52,
+          "mc_survival_s2_pct": 312.9,
+          "structural_fit": 0.8539,
+          "co_occurrence": 0.2,
+          "label": "Recent hot streak + trending up",
           "bonus_numbers": [
             14
           ],
@@ -1980,18 +1968,18 @@
           "rank": 2,
           "numbers": [
             58,
-            14,
-            55,
-            9,
-            40
+            65,
+            5,
+            29,
+            14
           ],
           "score": 1.0,
-          "analytic_score": 0.6011,
-          "mc_survival_pct": 129.49,
-          "mc_survival_s2_pct": 299.6,
-          "structural_fit": 0.8857,
-          "co_occurrence": 0.26,
-          "label": "Recent hot streak + trending up",
+          "analytic_score": 0.5728,
+          "mc_survival_pct": 137.8,
+          "mc_survival_s2_pct": 309.25,
+          "structural_fit": 0.7958,
+          "co_occurrence": 0.22,
+          "label": "Recent hot streak + high frequency + trending up",
           "bonus_numbers": [
             2
           ],
@@ -2001,18 +1989,18 @@
           "rank": 3,
           "numbers": [
             58,
-            29,
-            55,
-            4,
-            50
+            5,
+            9,
+            50,
+            64
           ],
           "score": 1.0,
-          "analytic_score": 0.5892,
-          "mc_survival_pct": 128.82,
-          "mc_survival_s2_pct": 297.94,
-          "structural_fit": 0.9103,
-          "co_occurrence": 0.18,
-          "label": "Recent hot streak + trending up",
+          "analytic_score": 0.5902,
+          "mc_survival_pct": 133.05,
+          "mc_survival_s2_pct": 299.39,
+          "structural_fit": 0.8491,
+          "co_occurrence": 0.3,
+          "label": "Recent hot streak + high frequency + trending up",
           "bonus_numbers": [
             23
           ],
@@ -2020,10 +2008,10 @@
         }
       ],
       "heatmap": {
-        "1": 4,
+        "1": 5,
         "2": 12,
         "3": 21,
-        "4": 13,
+        "4": 14,
         "5": 14,
         "6": 14,
         "7": 12,
@@ -2034,43 +2022,43 @@
         "12": 8,
         "13": 11,
         "14": 18,
-        "15": 11,
+        "15": 10,
         "16": 18,
         "17": 15,
         "18": 18,
-        "19": 12,
+        "19": 13,
         "20": 9,
         "21": 15,
-        "22": 9,
-        "23": 10,
+        "22": 10,
+        "23": 9,
         "24": 12,
         "25": 11,
         "26": 11,
         "27": 14,
-        "28": 21,
+        "28": 22,
         "29": 16,
         "30": 15,
         "31": 13,
         "32": 14,
-        "33": 9,
+        "33": 10,
         "34": 8,
         "35": 7,
         "36": 14,
         "37": 12,
-        "38": 10,
+        "38": 11,
         "39": 8,
-        "40": 14,
+        "40": 13,
         "41": 11,
         "42": 16,
         "43": 11,
         "44": 14,
         "45": 8,
-        "46": 9,
+        "46": 8,
         "47": 15,
         "48": 13,
-        "49": 14,
+        "49": 13,
         "50": 13,
-        "51": 13,
+        "51": 15,
         "52": 16,
         "53": 17,
         "54": 12,
@@ -2080,11 +2068,11 @@
         "58": 18,
         "59": 18,
         "60": 14,
-        "61": 14,
+        "61": 13,
         "62": 11,
-        "63": 14,
-        "64": 23,
-        "65": 18,
+        "63": 13,
+        "64": 22,
+        "65": 17,
         "66": 13,
         "67": 11,
         "68": 11,
@@ -2096,24 +2084,24 @@
           1,
           26
         ],
-        "draws_count": 2009,
+        "draws_count": 2011,
         "top": [
           {
             "number": 14,
-            "score": 0.6329
+            "score": 0.6246
           },
           {
             "number": 2,
-            "score": 0.6191
+            "score": 0.6056
           },
           {
             "number": 23,
-            "score": 0.6103
+            "score": 0.5853
           }
         ],
         "hottest": 14,
         "heatmap": {
-          "1": 12,
+          "1": 11,
           "2": 10,
           "3": 10,
           "4": 6,
@@ -2121,13 +2109,13 @@
           "6": 6,
           "7": 6,
           "8": 1,
-          "9": 4,
+          "9": 5,
           "10": 7,
           "11": 4,
           "12": 8,
           "13": 6,
           "14": 13,
-          "15": 8,
+          "15": 9,
           "16": 3,
           "17": 6,
           "18": 6,
@@ -2135,14 +2123,14 @@
           "20": 9,
           "21": 4,
           "22": 7,
-          "23": 12,
+          "23": 11,
           "24": 5,
           "25": 5,
           "26": 7
         }
       },
       "temporal_analysis": {
-        "target_date": "2026-10-09",
+        "target_date": "2026-10-13",
         "season": "Fall",
         "month": "October",
         "seasonal_top": [
@@ -2152,27 +2140,137 @@
           },
           {
             "number": 30,
-            "score": 0.9792
+            "score": 0.9807
           },
           {
             "number": 43,
-            "score": 0.9531
+            "score": 0.9533
           },
           {
             "number": 67,
-            "score": 0.9457
+            "score": 0.9468
           },
           {
             "number": 42,
-            "score": 0.9332
+            "score": 0.9343
           },
           {
             "number": 57,
-            "score": 0.9302
+            "score": 0.9315
           }
         ]
       },
       "last_5_backtest": [
+        {
+          "date": "2026-10-12",
+          "actual_numbers": [
+            22,
+            28,
+            38,
+            51,
+            69
+          ],
+          "predicted_top_3": [
+            {
+              "rank": 1,
+              "numbers": [
+                58,
+                14,
+                65,
+                8,
+                29
+              ],
+              "score": 1.0,
+              "label": "Recent hot streak + high frequency + trending up",
+              "matches": [],
+              "match_count": 0
+            },
+            {
+              "rank": 2,
+              "numbers": [
+                58,
+                65,
+                4,
+                40,
+                9
+              ],
+              "score": 1.0,
+              "label": "Recent hot streak + trending up",
+              "matches": [],
+              "match_count": 0
+            },
+            {
+              "rank": 3,
+              "numbers": [
+                58,
+                14,
+                5,
+                9,
+                64
+              ],
+              "score": 1.0,
+              "label": "Recent hot streak + high frequency + trending up",
+              "matches": [],
+              "match_count": 0
+            }
+          ],
+          "best_match_count": 0
+        },
+        {
+          "date": "2026-10-10",
+          "actual_numbers": [
+            1,
+            4,
+            19,
+            33,
+            51
+          ],
+          "predicted_top_3": [
+            {
+              "rank": 1,
+              "numbers": [
+                58,
+                29,
+                14,
+                65,
+                8
+              ],
+              "score": 1.0,
+              "label": "Recent hot streak + high frequency + trending up",
+              "matches": [],
+              "match_count": 0
+            },
+            {
+              "rank": 2,
+              "numbers": [
+                58,
+                29,
+                5,
+                9,
+                64
+              ],
+              "score": 1.0,
+              "label": "Recent hot streak + high frequency + trending up",
+              "matches": [],
+              "match_count": 0
+            },
+            {
+              "rank": 3,
+              "numbers": [
+                58,
+                14,
+                40,
+                9,
+                55
+              ],
+              "score": 1.0,
+              "label": "Recent hot streak + trending up",
+              "matches": [],
+              "match_count": 0
+            }
+          ],
+          "best_match_count": 0
+        },
         {
           "date": "2026-10-07",
           "actual_numbers": [
@@ -2189,7 +2287,7 @@
                 58,
                 29,
                 65,
-                17,
+                40,
                 8
               ],
               "score": 1.0,
@@ -2204,33 +2302,34 @@
               "numbers": [
                 58,
                 29,
-                14,
-                55,
-                9
-              ],
-              "score": 1.0,
-              "label": "Recent hot streak + trending up",
-              "matches": [
-                14
-              ],
-              "match_count": 1
-            },
-            {
-              "rank": 3,
-              "numbers": [
-                58,
                 17,
                 9,
-                44,
                 50
               ],
               "score": 1.0,
               "label": "Recent hot streak + trending up",
               "matches": [],
               "match_count": 0
+            },
+            {
+              "rank": 3,
+              "numbers": [
+                58,
+                65,
+                14,
+                9,
+                44
+              ],
+              "score": 1.0,
+              "label": "Recent hot streak + trending up",
+              "matches": [
+                14,
+                65
+              ],
+              "match_count": 2
             }
           ],
-          "best_match_count": 1
+          "best_match_count": 2
         },
         {
           "date": "2026-10-05",
@@ -2246,8 +2345,8 @@
               "rank": 1,
               "numbers": [
                 58,
-                17,
                 29,
+                17,
                 50,
                 8
               ],
@@ -2262,7 +2361,7 @@
                 58,
                 17,
                 65,
-                14,
+                40,
                 9
               ],
               "score": 1.0,
@@ -2274,13 +2373,13 @@
               "rank": 3,
               "numbers": [
                 58,
-                17,
-                55,
-                4,
-                44
+                29,
+                65,
+                14,
+                5
               ],
               "score": 1.0,
-              "label": "Recent hot streak + trending up",
+              "label": "Recent hot streak + high frequency + trending up",
               "matches": [],
               "match_count": 0
             }
@@ -2301,8 +2400,8 @@
               "rank": 1,
               "numbers": [
                 58,
-                17,
                 29,
+                17,
                 50,
                 8
               ],
@@ -2316,20 +2415,6 @@
               "numbers": [
                 58,
                 17,
-                65,
-                14,
-                9
-              ],
-              "score": 1.0,
-              "label": "Recent hot streak + high frequency + trending up",
-              "matches": [],
-              "match_count": 0
-            },
-            {
-              "rank": 3,
-              "numbers": [
-                58,
-                29,
                 65,
                 40,
                 6
@@ -2338,147 +2423,43 @@
               "label": "Recent hot streak + high frequency + trending up",
               "matches": [],
               "match_count": 0
-            }
-          ],
-          "best_match_count": 0
-        },
-        {
-          "date": "2026-09-30",
-          "actual_numbers": [
-            4,
-            6,
-            23,
-            33,
-            44
-          ],
-          "predicted_top_3": [
-            {
-              "rank": 1,
-              "numbers": [
-                58,
-                17,
-                14,
-                29,
-                50
-              ],
-              "score": 1.0,
-              "label": "Recent hot streak + high frequency + trending up",
-              "matches": [],
-              "match_count": 0
-            },
-            {
-              "rank": 2,
-              "numbers": [
-                58,
-                17,
-                65,
-                6,
-                40
-              ],
-              "score": 1.0,
-              "label": "Recent hot streak + high frequency + trending up",
-              "matches": [
-                6
-              ],
-              "match_count": 1
             },
             {
               "rank": 3,
               "numbers": [
                 58,
-                14,
+                29,
                 65,
-                9,
-                44
-              ],
-              "score": 1.0,
-              "label": "Recent hot streak + trending up",
-              "matches": [
-                44
-              ],
-              "match_count": 1
-            }
-          ],
-          "best_match_count": 1
-        },
-        {
-          "date": "2026-09-28",
-          "actual_numbers": [
-            17,
-            21,
-            29,
-            42,
-            49
-          ],
-          "predicted_top_3": [
-            {
-              "rank": 1,
-              "numbers": [
-                58,
-                59,
                 14,
-                50,
                 9
               ],
               "score": 1.0,
               "label": "Recent hot streak + high frequency + trending up",
               "matches": [],
               "match_count": 0
-            },
-            {
-              "rank": 2,
-              "numbers": [
-                58,
-                50,
-                65,
-                17,
-                6
-              ],
-              "score": 1.0,
-              "label": "Recent hot streak + trending up",
-              "matches": [
-                17
-              ],
-              "match_count": 1
-            },
-            {
-              "rank": 3,
-              "numbers": [
-                58,
-                14,
-                65,
-                29,
-                8
-              ],
-              "score": 1.0,
-              "label": "Recent hot streak + high frequency + trending up",
-              "matches": [
-                29
-              ],
-              "match_count": 1
             }
           ],
-          "best_match_count": 1
+          "best_match_count": 0
         }
       ],
       "methodology": {
         "factor_weights": {
-          "freq": 0.0191,
-          "recency": 0.1402,
-          "gap": 0.2255,
-          "pair": 0.131,
-          "momentum": 0.3523,
+          "freq": 0.1802,
+          "recency": 0.0053,
+          "gap": 0.1994,
+          "pair": 0.1158,
+          "momentum": 0.3924,
           "temporal": 0.0,
-          "position": 0.1319,
+          "position": 0.1068,
           "markov": 0.0
         },
         "weight_optimization": {
           "weights_source": "optimized",
           "eval_draws": 80,
           "trials": 710,
-          "default_score": 2.4946,
-          "optimized_score": 2.6082,
-          "improvement": 0.1136
+          "default_score": 2.4833,
+          "optimized_score": 2.6092,
+          "improvement": 0.1259
         },
         "per_number_weight": 0.55,
         "structure_weight": 0.25,
@@ -2497,13 +2478,13 @@
     },
     "megamillions": {
       "game": "Mega Millions",
-      "draws_count": 3066,
+      "draws_count": 3067,
       "date_range": {
         "first": "1996-09-06",
-        "last": "2026-10-06"
+        "last": "2026-10-09"
       },
-      "hottest_number": 28,
-      "coldest_number": 42,
+      "hottest_number": 11,
+      "coldest_number": 32,
       "most_common_pair": [
         19,
         31
@@ -2512,18 +2493,18 @@
         {
           "rank": 1,
           "numbers": [
-            28,
             11,
+            28,
+            59,
             69,
-            2,
-            59
+            18
           ],
           "score": 1.0,
-          "analytic_score": 0.5395,
-          "mc_survival_pct": 149.28,
-          "mc_survival_s2_pct": 335.92,
-          "structural_fit": 0.8006,
-          "co_occurrence": 0.18,
+          "analytic_score": 0.5863,
+          "mc_survival_pct": 142.8,
+          "mc_survival_s2_pct": 319.99,
+          "structural_fit": 0.9666,
+          "co_occurrence": 0.26,
           "label": "Overdue numbers",
           "bonus_numbers": [
             12
@@ -2533,19 +2514,19 @@
         {
           "rank": 2,
           "numbers": [
-            28,
             11,
+            28,
             45,
-            48,
-            31
+            43,
+            48
           ],
           "score": 1.0,
-          "analytic_score": 0.5471,
-          "mc_survival_pct": 141.87,
-          "mc_survival_s2_pct": 320.53,
-          "structural_fit": 0.846,
-          "co_occurrence": 0.24,
-          "label": "Overdue numbers",
+          "analytic_score": 0.5444,
+          "mc_survival_pct": 142.96,
+          "mc_survival_s2_pct": 320.4,
+          "structural_fit": 0.8609,
+          "co_occurrence": 0.18,
+          "label": "Balanced score",
           "bonus_numbers": [
             16
           ],
@@ -2554,19 +2535,19 @@
         {
           "rank": 3,
           "numbers": [
-            28,
             11,
-            46,
-            52,
-            39
+            28,
+            30,
+            51,
+            68
           ],
           "score": 1.0,
-          "analytic_score": 0.5208,
-          "mc_survival_pct": 140.55,
-          "mc_survival_s2_pct": 317.79,
-          "structural_fit": 0.8012,
-          "co_occurrence": 0.18,
-          "label": "Overdue numbers",
+          "analytic_score": 0.5396,
+          "mc_survival_pct": 140.15,
+          "mc_survival_s2_pct": 314.35,
+          "structural_fit": 0.9298,
+          "co_occurrence": 0.1,
+          "label": "Recent hot streak",
           "bonus_numbers": [
             1
           ],
@@ -2575,21 +2556,21 @@
       ],
       "heatmap": {
         "1": 12,
-        "2": 13,
+        "2": 14,
         "3": 8,
         "4": 13,
         "5": 11,
         "6": 13,
-        "7": 9,
-        "8": 12,
+        "7": 10,
+        "8": 11,
         "9": 11,
-        "10": 18,
+        "10": 17,
         "11": 17,
         "12": 12,
         "13": 15,
         "14": 11,
         "15": 9,
-        "16": 13,
+        "16": 14,
         "17": 19,
         "18": 17,
         "19": 16,
@@ -2610,7 +2591,7 @@
         "34": 15,
         "35": 9,
         "36": 12,
-        "37": 14,
+        "37": 13,
         "38": 15,
         "39": 13,
         "40": 18,
@@ -2627,7 +2608,7 @@
         "51": 12,
         "52": 15,
         "53": 9,
-        "54": 10,
+        "54": 9,
         "55": 14,
         "56": 20,
         "57": 13,
@@ -2636,14 +2617,14 @@
         "60": 12,
         "61": 9,
         "62": 14,
-        "63": 18,
+        "63": 19,
         "64": 10,
         "65": 9,
         "66": 11,
         "67": 6,
         "68": 14,
-        "69": 11,
-        "70": 11
+        "69": 10,
+        "70": 12
       },
       "bonus": {
         "label": "Mega Ball",
@@ -2651,19 +2632,19 @@
           1,
           25
         ],
-        "draws_count": 3066,
+        "draws_count": 3067,
         "top": [
           {
             "number": 12,
-            "score": 0.7047
+            "score": 0.7056
           },
           {
             "number": 16,
-            "score": 0.5727
+            "score": 0.5737
           },
           {
             "number": 1,
-            "score": 0.5119
+            "score": 0.5128
           }
         ],
         "hottest": 12,
@@ -2675,7 +2656,7 @@
           "5": 5,
           "6": 9,
           "7": 10,
-          "8": 7,
+          "8": 8,
           "9": 6,
           "10": 9,
           "11": 3,
@@ -2689,14 +2670,14 @@
           "19": 5,
           "20": 4,
           "21": 5,
-          "22": 9,
+          "22": 8,
           "23": 8,
           "24": 12,
           "25": 1
         }
       },
       "temporal_analysis": {
-        "target_date": "2026-10-09",
+        "target_date": "2026-10-13",
         "season": "Fall",
         "month": "October",
         "seasonal_top": [
@@ -2706,27 +2687,86 @@
           },
           {
             "number": 34,
-            "score": 0.9532
+            "score": 0.9528
           },
           {
             "number": 45,
-            "score": 0.9393
+            "score": 0.9388
           },
           {
             "number": 24,
-            "score": 0.9099
+            "score": 0.9095
           },
           {
             "number": 46,
-            "score": 0.8817
+            "score": 0.8814
           },
           {
-            "number": 66,
-            "score": 0.8718
+            "number": 70,
+            "score": 0.8808
           }
         ]
       },
       "last_5_backtest": [
+        {
+          "date": "2026-10-09",
+          "actual_numbers": [
+            2,
+            7,
+            16,
+            63,
+            70
+          ],
+          "predicted_top_3": [
+            {
+              "rank": 1,
+              "numbers": [
+                11,
+                28,
+                2,
+                59,
+                45
+              ],
+              "score": 1.0,
+              "label": "Balanced score",
+              "matches": [
+                2
+              ],
+              "match_count": 1
+            },
+            {
+              "rank": 2,
+              "numbers": [
+                11,
+                28,
+                43,
+                18,
+                69
+              ],
+              "score": 1.0,
+              "label": "Overdue numbers",
+              "matches": [],
+              "match_count": 0
+            },
+            {
+              "rank": 3,
+              "numbers": [
+                11,
+                2,
+                43,
+                51,
+                48
+              ],
+              "score": 1.0,
+              "label": "Recent hot streak + high frequency",
+              "matches": [
+                2
+              ],
+              "match_count": 1
+            }
+          ],
+          "best_match_count": 1
+        },
         {
           "date": "2026-10-06",
           "actual_numbers": [
@@ -2740,25 +2780,11 @@
             {
               "rank": 1,
               "numbers": [
-                28,
                 11,
-                69,
+                28,
                 2,
-                59
-              ],
-              "score": 1.0,
-              "label": "Overdue numbers",
-              "matches": [],
-              "match_count": 0
-            },
-            {
-              "rank": 2,
-              "numbers": [
-                28,
-                11,
-                45,
-                51,
-                48
+                59,
+                51
               ],
               "score": 1.0,
               "label": "Balanced score",
@@ -2768,16 +2794,30 @@
               "match_count": 1
             },
             {
-              "rank": 3,
+              "rank": 2,
               "numbers": [
-                28,
                 11,
-                46,
-                39,
-                31
+                28,
+                43,
+                69,
+                18
               ],
               "score": 1.0,
               "label": "Overdue numbers",
+              "matches": [],
+              "match_count": 0
+            },
+            {
+              "rank": 3,
+              "numbers": [
+                11,
+                28,
+                45,
+                68,
+                31
+              ],
+              "score": 1.0,
+              "label": "Balanced score",
               "matches": [],
               "match_count": 0
             }
@@ -2797,27 +2837,11 @@
             {
               "rank": 1,
               "numbers": [
-                28,
                 11,
-                69,
-                45,
-                40
-              ],
-              "score": 1.0,
-              "label": "Overdue numbers",
-              "matches": [
-                40
-              ],
-              "match_count": 1
-            },
-            {
-              "rank": 2,
-              "numbers": [
                 28,
-                11,
                 2,
-                52,
-                59
+                59,
+                51
               ],
               "score": 1.0,
               "label": "Balanced score",
@@ -2825,13 +2849,27 @@
               "match_count": 0
             },
             {
+              "rank": 2,
+              "numbers": [
+                11,
+                28,
+                43,
+                69,
+                18
+              ],
+              "score": 1.0,
+              "label": "Overdue numbers",
+              "matches": [],
+              "match_count": 0
+            },
+            {
               "rank": 3,
               "numbers": [
-                28,
                 11,
+                28,
+                45,
                 41,
-                51,
-                46
+                68
               ],
               "score": 1.0,
               "label": "Balanced score",
@@ -2856,42 +2894,27 @@
             {
               "rank": 1,
               "numbers": [
-                28,
-                11,
                 64,
-                69,
-                15
-              ],
-              "score": 1.0,
-              "label": "Overdue numbers",
-              "matches": [
-                15,
-                64
-              ],
-              "match_count": 2
-            },
-            {
-              "rank": 2,
-              "numbers": [
-                28,
                 11,
-                40,
+                28,
                 2,
                 59
               ],
               "score": 1.0,
-              "label": "Balanced score",
-              "matches": [],
-              "match_count": 0
+              "label": "Overdue numbers",
+              "matches": [
+                64
+              ],
+              "match_count": 1
             },
             {
-              "rank": 3,
+              "rank": 2,
               "numbers": [
-                28,
                 64,
-                2,
-                41,
-                51
+                11,
+                51,
+                40,
+                43
               ],
               "score": 1.0,
               "label": "Balanced score",
@@ -2899,9 +2922,23 @@
                 64
               ],
               "match_count": 1
+            },
+            {
+              "rank": 3,
+              "numbers": [
+                11,
+                28,
+                51,
+                30,
+                69
+              ],
+              "score": 1.0,
+              "label": "Overdue numbers",
+              "matches": [],
+              "match_count": 0
             }
           ],
-          "best_match_count": 2
+          "best_match_count": 1
         },
         {
           "date": "2026-09-25",
@@ -2916,11 +2953,11 @@
             {
               "rank": 1,
               "numbers": [
-                28,
-                11,
                 64,
-                69,
-                15
+                11,
+                28,
+                2,
+                51
               ],
               "score": 1.0,
               "label": "Overdue numbers",
@@ -2930,89 +2967,32 @@
             {
               "rank": 2,
               "numbers": [
-                28,
                 11,
+                28,
+                59,
                 40,
-                51,
-                67
+                69
               ],
               "score": 1.0,
               "label": "Overdue numbers",
-              "matches": [
-                67
-              ],
-              "match_count": 1
+              "matches": [],
+              "match_count": 0
             },
             {
               "rank": 3,
               "numbers": [
-                28,
-                11,
-                2,
-                52,
-                59
-              ],
-              "score": 1.0,
-              "label": "Balanced score",
-              "matches": [],
-              "match_count": 0
-            }
-          ],
-          "best_match_count": 1
-        },
-        {
-          "date": "2026-09-22",
-          "actual_numbers": [
-            7,
-            13,
-            26,
-            37,
-            68
-          ],
-          "predicted_top_3": [
-            {
-              "rank": 1,
-              "numbers": [
-                28,
-                11,
                 64,
-                69,
-                13
-              ],
-              "score": 1.0,
-              "label": "Overdue numbers",
-              "matches": [
-                13
-              ],
-              "match_count": 1
-            },
-            {
-              "rank": 2,
-              "numbers": [
-                28,
                 11,
-                40,
-                15,
-                67
-              ],
-              "score": 1.0,
-              "label": "Overdue numbers",
-              "matches": [],
-              "match_count": 0
-            },
-            {
-              "rank": 3,
-              "numbers": [
-                28,
-                11,
-                2,
-                51,
-                41
+                59,
+                25,
+                30
               ],
               "score": 1.0,
               "label": "Balanced score",
-              "matches": [],
-              "match_count": 0
+              "matches": [
+                25
+              ],
+              "match_count": 1
             }
           ],
           "best_match_count": 1
@@ -3022,20 +3002,20 @@
         "factor_weights": {
           "freq": 0.0,
           "recency": 0.0,
-          "gap": 0.3944,
-          "pair": 0.0,
-          "momentum": 0.1585,
-          "temporal": 0.0614,
-          "position": 0.3078,
-          "markov": 0.0779
+          "gap": 0.3164,
+          "pair": 0.0147,
+          "momentum": 0.1521,
+          "temporal": 0.0769,
+          "position": 0.2686,
+          "markov": 0.1713
         },
         "weight_optimization": {
           "weights_source": "optimized",
           "eval_draws": 80,
           "trials": 710,
-          "default_score": 2.5245,
-          "optimized_score": 2.635,
-          "improvement": 0.1105
+          "default_score": 2.5216,
+          "optimized_score": 2.6198,
+          "improvement": 0.0982
         },
         "per_number_weight": 0.55,
         "structure_weight": 0.25,
